@@ -1,0 +1,29 @@
+version: "1.0"
+
+services:
+  users-service:
+    build: ./services/users
+    container_name: users-service
+    ports:
+      - "4001:4001"
+    environment:
+      - MONGO_DB_URI=${MONGO_DB_URI}
+  app-services:
+    build: ./services/app
+    container_name: app-services
+    ports:
+      - "4002:4002"
+    environment:
+      - JWTSECRET=${JWTSECRET}
+      - DATABASE_URL=${DATABASE_URL}
+      - NODE_ENV=${NODE_ENV}
+  orchestrator:
+    build: ./orchestrator-graphql
+    container_name: orchestrator-graphql
+    ports:
+      - "80:4000"
+    environment:
+      - URL_USERS=${URL_USERS}
+      - URL_APP=${URL_APP}
+      - REDIS_URL=${REDIS_URL}
+      - REDIS_PORT=${REDIS_PORT}

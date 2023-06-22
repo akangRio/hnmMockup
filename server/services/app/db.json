@@ -1,0 +1,195 @@
+{
+  "Product": [
+    {
+      "id": 1,
+      "name": "Desert",
+      "slug": "Product-Desert",
+      "description": "Desert shirt",
+      "price": 25000,
+      "mainImg": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/4335d25bc45a83f3f663f49ecd4011522efb6b77_xxl-1.jpg",
+      "categoryId": 2,
+      "authorId": "64746524e73463d26fedc282"
+    },
+    {
+      "id": 2,
+      "name": "Snow",
+      "slug": "Product-Snow",
+      "description": "Snow shirt",
+      "price": 45000,
+      "mainImg": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/07bb7cfa54ad2a9422b15a684659285d78362e36_xxl-1.jpg",
+      "categoryId": 2,
+      "authorId": "64746548e73463d26fedc283"
+    },
+    {
+      "id": 3,
+      "name": "Sun",
+      "slug": "Product-Sun",
+      "description": "Sun shirt",
+      "price": 65000,
+      "mainImg": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/b9c955d75c88c62c50733311a6bdd27a1016a6b5_xxl-1.jpg",
+      "categoryId": 1,
+      "authorId": "64746524e73463d26fedc282"
+    },
+    {
+      "id": 4,
+      "name": "Moon",
+      "slug": "Product-Moon",
+      "description": "Moon shirt",
+      "price": 165000,
+      "mainImg": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/75ecb34d8cbe8e570e3f3199a4f1aa04d19c4a95_xxl-1.jpg",
+      "categoryId": 1,
+      "authorId": "64746524e73463d26fedc282"
+    },
+    {
+      "id": 5,
+      "name": "Earth",
+      "slug": "Product-Earth",
+      "description": "Earth shirt",
+      "price": 99000,
+      "mainImg": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/166177bb27f9c57f367c80b73bc7f888c4f89e77_xxl-1.jpg",
+      "categoryId": 1,
+      "authorId": "64746524e73463d26fedc282"
+    },
+    {
+      "id": 6,
+      "name": "Wind",
+      "slug": "Product-Wind",
+      "description": "Wind shirt",
+      "price": 66000,
+      "mainImg": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/9c0204869cfff192392da22a9f9ab23fdfd7abae_xxl-1.jpg",
+      "categoryId": 3,
+      "authorId": "64746548e73463d26fedc283"
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "name": "Long Sleeve"
+    },
+    {
+      "id": 2,
+      "name": "Short Sleeve"
+    },
+    {
+      "id": 3,
+      "name": "Tank Tops"
+    }
+  ],
+  "Images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/a10c7f2f253c5f85058e82a601f54c9d57796e4c_xxl-1.jpg"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/3928f4adfed4d2235b01a5cbfc6d7b0cf4ee10bb_xxl-1.jpg"
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/0dd2341337e492164eebce904bab42ea6735e352_xxl-1.jpg"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/3e1559783f452a768a28daf9f56efc2bc9d4b53e_xxl-1.jpg"
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/f99bc072e095872384508d4819ed1e468b334a73_xxl-1.jpg"
+    },
+    {
+      "id": 6,
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/462ad2d51a4c9f529b60824bf81f71fb319077d5_xxl-1.jpg"
+    },
+    {
+      "id": 7,
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/8760f3c0bc0186ed01b8cfcf670582e22c137c60_xxl-1.jpg"
+    },
+    {
+      "id": 8,
+      "productId": 5,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/e0e0b1a0af2ba7d35f2e9938120a20458cccc340_xxl-1.jpg"
+    },
+    {
+      "id": 9,
+      "productId": 6,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/0023b87698aa0e16afa4a9314e09a733b6654937_xxl-1.jpg"
+    },
+    {
+      "id": 10,
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/f3c712e2235c3c2849b3da0f636848a023d0c453_xxl-1.jpg"
+    },
+    {
+      "id": 11,
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/acefca7e6b66d4a579986f3017380dc9b4343152_xxl-1.jpg"
+    },
+    {
+      "id": 12,
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/8692c4d493b383aba1a638a4c38bd511cac0ecb7_xxl-1.jpg"
+    },
+    {
+      "id": 13,
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/48790d238e80b09625208b4962a2141a9426a39b_xxl-1.jpg"
+    },
+    {
+      "id": 14,
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/0d6817ce6b905718caf24cf85e35e57c80a03b82_xxl-1.jpg"
+    },
+    {
+      "id": 15,
+      "productId": 5,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/d99f709685cdb02cc71041004dd4f7286a3c9fba_xxl-1.jpg"
+    },
+    {
+      "id": 16,
+      "productId": 5,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/f2d5c8bbfbf370e45656d34d04393934a782ac0b_xxl-1.jpg"
+    }
+  ],
+
+  "Users": [
+    {
+      "email": "a@a.com",
+      "password": "12345",
+      "username": "usera",
+      "role": "admin",
+      "phoneNumber": 929293823,
+      "address": "alsut"
+    },
+    {
+      "email": "b@b.com",
+      "password": "12345",
+      "username": "userb",
+      "role": "admin",
+      "phoneNumber": 929293823,
+      "address": "alsut"
+    },
+    {
+      "email": "c@c.com",
+      "password": "12345",
+      "username": "userc",
+      "role": "admin",
+      "phoneNumber": 929293823,
+      "address": "alsut"
+    },
+    {
+      "email": "d@d.com",
+      "password": "12345",
+      "username": "userd",
+      "role": "staff",
+      "phoneNumber": 929293823,
+      "address": "alsut"
+    }
+  ]
+}
